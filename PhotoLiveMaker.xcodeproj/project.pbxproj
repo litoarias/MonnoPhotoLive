@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		737886E5229744CD009A2097 /* URLSession+DownloadMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737886E4229744CD009A2097 /* URLSession+DownloadMedia.swift */; };
+		737886E7229744FD009A2097 /* FileManager+Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737886E6229744FD009A2097 /* FileManager+Delete.swift */; };
+		737886E92297F98C009A2097 /* LivePhotoOpertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737886E82297F98C009A2097 /* LivePhotoOpertion.swift */; };
+		739491D62296F2D900F4ED51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739491D52296F2D900F4ED51 /* AppDelegate.swift */; };
+		739491D82296F2D900F4ED51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739491D72296F2D900F4ED51 /* ViewController.swift */; };
+		739491DD2296F2DB00F4ED51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739491DC2296F2DB00F4ED51 /* Assets.xcassets */; };
+		739491E02296F2DB00F4ED51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739491DE2296F2DB00F4ED51 /* LaunchScreen.storyboard */; };
+		739491EB2296F2DB00F4ED51 /* PhotoLiveMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739491EA2296F2DB00F4ED51 /* PhotoLiveMakerTests.swift */; };
+		739491F62296F2DB00F4ED51 /* PhotoLiveMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739491F52296F2DB00F4ED51 /* PhotoLiveMakerUITests.swift */; };
+		739492112296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */; };
+		739492182296F30300F4ED51 /* MonnoPhotoLiveMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739492172296F30300F4ED51 /* MonnoPhotoLiveMakerTests.swift */; };
+		7394921A2296F30300F4ED51 /* MonnoPhotoLiveMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7394920A2296F30300F4ED51 /* MonnoPhotoLiveMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7394921D2296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */; };
+		7394921E2296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7394922D2296F8FC00F4ED51 /* UIViewController-extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394922C2296F8FC00F4ED51 /* UIViewController-extensions.swift */; };
+		739492302296FB2000F4ED51 /* resistencia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7394922E2296FB2000F4ED51 /* resistencia.jpg */; };
+		739492312296FB2000F4ED51 /* resistencia.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 7394922F2296FB2000F4ED51 /* resistencia.MOV */; };
+		73949233229700EB00F4ED51 /* resistenc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 73949232229700EB00F4ED51 /* resistenc.mp4 */; };
+		739492362297168E00F4ED51 /* a.mov in Resources */ = {isa = PBXBuildFile; fileRef = 739492352297168E00F4ED51 /* a.mov */; };
+		73949237229718DA00F4ED51 /* LivePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739492262296F39B00F4ED51 /* LivePhoto.swift */; };
+		7394923922971C7B00F4ED51 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7394923822971C7B00F4ED51 /* b.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		739491E72296F2DB00F4ED51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739491CA2296F2D900F4ED51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739491D12296F2D900F4ED51;
+			remoteInfo = PhotoLiveMaker;
+		};
+		739491F22296F2DB00F4ED51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739491CA2296F2D900F4ED51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739491D12296F2D900F4ED51;
+			remoteInfo = PhotoLiveMaker;
+		};
+		739492122296F30300F4ED51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739491CA2296F2D900F4ED51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739492072296F30200F4ED51;
+			remoteInfo = MonnoPhotoLiveMaker;
+		};
+		739492142296F30300F4ED51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739491CA2296F2D900F4ED51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739491D12296F2D900F4ED51;
+			remoteInfo = PhotoLiveMaker;
+		};
+		7394921B2296F30300F4ED51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739491CA2296F2D900F4ED51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739492072296F30200F4ED51;
+			remoteInfo = MonnoPhotoLiveMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		739492222296F30300F4ED51 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7394921E2296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		737886E4229744CD009A2097 /* URLSession+DownloadMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+DownloadMedia.swift"; sourceTree = "<group>"; };
+		737886E6229744FD009A2097 /* FileManager+Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Delete.swift"; sourceTree = "<group>"; };
+		737886E82297F98C009A2097 /* LivePhotoOpertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhotoOpertion.swift; sourceTree = "<group>"; };
+		739491D22296F2D900F4ED51 /* PhotoLiveMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoLiveMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		739491D52296F2D900F4ED51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		739491D72296F2D900F4ED51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		739491DC2296F2DB00F4ED51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		739491DF2296F2DB00F4ED51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		739491E12296F2DB00F4ED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739491E62296F2DB00F4ED51 /* PhotoLiveMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoLiveMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		739491EA2296F2DB00F4ED51 /* PhotoLiveMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLiveMakerTests.swift; sourceTree = "<group>"; };
+		739491EC2296F2DB00F4ED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739491F12296F2DB00F4ED51 /* PhotoLiveMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoLiveMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		739491F52296F2DB00F4ED51 /* PhotoLiveMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLiveMakerUITests.swift; sourceTree = "<group>"; };
+		739491F72296F2DB00F4ED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MonnoPhotoLiveMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7394920A2296F30300F4ED51 /* MonnoPhotoLiveMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonnoPhotoLiveMaker.h; sourceTree = "<group>"; };
+		7394920B2296F30300F4ED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739492102296F30300F4ED51 /* MonnoPhotoLiveMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonnoPhotoLiveMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		739492172296F30300F4ED51 /* MonnoPhotoLiveMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonnoPhotoLiveMakerTests.swift; sourceTree = "<group>"; };
+		739492192296F30300F4ED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739492262296F39B00F4ED51 /* LivePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhoto.swift; sourceTree = "<group>"; };
+		7394922C2296F8FC00F4ED51 /* UIViewController-extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-extensions.swift"; sourceTree = "<group>"; };
+		7394922E2296FB2000F4ED51 /* resistencia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resistencia.jpg; sourceTree = "<group>"; };
+		7394922F2296FB2000F4ED51 /* resistencia.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = resistencia.MOV; sourceTree = "<group>"; };
+		73949232229700EB00F4ED51 /* resistenc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = resistenc.mp4; sourceTree = "<group>"; };
+		739492352297168E00F4ED51 /* a.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = a.mov; sourceTree = "<group>"; };
+		7394923822971C7B00F4ED51 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739491CF2296F2D900F4ED51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7394921D2296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739491E32296F2DB00F4ED51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739491EE2296F2DB00F4ED51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739492052296F30200F4ED51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394920D2296F30300F4ED51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739492112296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739491C92296F2D900F4ED51 = {
+			isa = PBXGroup;
+			children = (
+				739491D42296F2D900F4ED51 /* PhotoLiveMaker */,
+				739491E92296F2DB00F4ED51 /* PhotoLiveMakerTests */,
+				739491F42296F2DB00F4ED51 /* PhotoLiveMakerUITests */,
+				739492092296F30200F4ED51 /* MonnoPhotoLiveMaker */,
+				739492162296F30300F4ED51 /* MonnoPhotoLiveMakerTests */,
+				739491D32296F2D900F4ED51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		739491D32296F2D900F4ED51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				739491D22296F2D900F4ED51 /* PhotoLiveMaker.app */,
+				739491E62296F2DB00F4ED51 /* PhotoLiveMakerTests.xctest */,
+				739491F12296F2DB00F4ED51 /* PhotoLiveMakerUITests.xctest */,
+				739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */,
+				739492102296F30300F4ED51 /* MonnoPhotoLiveMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739491D42296F2D900F4ED51 /* PhotoLiveMaker */ = {
+			isa = PBXGroup;
+			children = (
+				7394922E2296FB2000F4ED51 /* resistencia.jpg */,
+				7394922F2296FB2000F4ED51 /* resistencia.MOV */,
+				739492352297168E00F4ED51 /* a.mov */,
+				7394923822971C7B00F4ED51 /* b.jpg */,
+				73949232229700EB00F4ED51 /* resistenc.mp4 */,
+				739491D52296F2D900F4ED51 /* AppDelegate.swift */,
+				739491D72296F2D900F4ED51 /* ViewController.swift */,
+				7394922C2296F8FC00F4ED51 /* UIViewController-extensions.swift */,
+				739491DC2296F2DB00F4ED51 /* Assets.xcassets */,
+				739491DE2296F2DB00F4ED51 /* LaunchScreen.storyboard */,
+				739491E12296F2DB00F4ED51 /* Info.plist */,
+			);
+			path = PhotoLiveMaker;
+			sourceTree = "<group>";
+		};
+		739491E92296F2DB00F4ED51 /* PhotoLiveMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				739491EA2296F2DB00F4ED51 /* PhotoLiveMakerTests.swift */,
+				739491EC2296F2DB00F4ED51 /* Info.plist */,
+			);
+			path = PhotoLiveMakerTests;
+			sourceTree = "<group>";
+		};
+		739491F42296F2DB00F4ED51 /* PhotoLiveMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				739491F52296F2DB00F4ED51 /* PhotoLiveMakerUITests.swift */,
+				739491F72296F2DB00F4ED51 /* Info.plist */,
+			);
+			path = PhotoLiveMakerUITests;
+			sourceTree = "<group>";
+		};
+		739492092296F30200F4ED51 /* MonnoPhotoLiveMaker */ = {
+			isa = PBXGroup;
+			children = (
+				739492262296F39B00F4ED51 /* LivePhoto.swift */,
+				737886E4229744CD009A2097 /* URLSession+DownloadMedia.swift */,
+				737886E6229744FD009A2097 /* FileManager+Delete.swift */,
+				737886E82297F98C009A2097 /* LivePhotoOpertion.swift */,
+				7394920A2296F30300F4ED51 /* MonnoPhotoLiveMaker.h */,
+				7394920B2296F30300F4ED51 /* Info.plist */,
+			);
+			path = MonnoPhotoLiveMaker;
+			sourceTree = "<group>";
+		};
+		739492162296F30300F4ED51 /* MonnoPhotoLiveMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				739492172296F30300F4ED51 /* MonnoPhotoLiveMakerTests.swift */,
+				739492192296F30300F4ED51 /* Info.plist */,
+			);
+			path = MonnoPhotoLiveMakerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		739492032296F30200F4ED51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7394921A2296F30300F4ED51 /* MonnoPhotoLiveMaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		739491D12296F2D900F4ED51 /* PhotoLiveMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739491FA2296F2DB00F4ED51 /* Build configuration list for PBXNativeTarget "PhotoLiveMaker" */;
+			buildPhases = (
+				739491CE2296F2D900F4ED51 /* Sources */,
+				739491CF2296F2D900F4ED51 /* Frameworks */,
+				739491D02296F2D900F4ED51 /* Resources */,
+				739492222296F30300F4ED51 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7394921C2296F30300F4ED51 /* PBXTargetDependency */,
+			);
+			name = PhotoLiveMaker;
+			productName = PhotoLiveMaker;
+			productReference = 739491D22296F2D900F4ED51 /* PhotoLiveMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		739491E52296F2DB00F4ED51 /* PhotoLiveMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739491FD2296F2DB00F4ED51 /* Build configuration list for PBXNativeTarget "PhotoLiveMakerTests" */;
+			buildPhases = (
+				739491E22296F2DB00F4ED51 /* Sources */,
+				739491E32296F2DB00F4ED51 /* Frameworks */,
+				739491E42296F2DB00F4ED51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739491E82296F2DB00F4ED51 /* PBXTargetDependency */,
+			);
+			name = PhotoLiveMakerTests;
+			productName = PhotoLiveMakerTests;
+			productReference = 739491E62296F2DB00F4ED51 /* PhotoLiveMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		739491F02296F2DB00F4ED51 /* PhotoLiveMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739492002296F2DB00F4ED51 /* Build configuration list for PBXNativeTarget "PhotoLiveMakerUITests" */;
+			buildPhases = (
+				739491ED2296F2DB00F4ED51 /* Sources */,
+				739491EE2296F2DB00F4ED51 /* Frameworks */,
+				739491EF2296F2DB00F4ED51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739491F32296F2DB00F4ED51 /* PBXTargetDependency */,
+			);
+			name = PhotoLiveMakerUITests;
+			productName = PhotoLiveMakerUITests;
+			productReference = 739491F12296F2DB00F4ED51 /* PhotoLiveMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		739492072296F30200F4ED51 /* MonnoPhotoLiveMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7394921F2296F30300F4ED51 /* Build configuration list for PBXNativeTarget "MonnoPhotoLiveMaker" */;
+			buildPhases = (
+				739492032296F30200F4ED51 /* Headers */,
+				739492042296F30200F4ED51 /* Sources */,
+				739492052296F30200F4ED51 /* Frameworks */,
+				739492062296F30200F4ED51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonnoPhotoLiveMaker;
+			productName = MonnoPhotoLiveMaker;
+			productReference = 739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7394920F2296F30300F4ED51 /* MonnoPhotoLiveMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739492232296F30300F4ED51 /* Build configuration list for PBXNativeTarget "MonnoPhotoLiveMakerTests" */;
+			buildPhases = (
+				7394920C2296F30300F4ED51 /* Sources */,
+				7394920D2296F30300F4ED51 /* Frameworks */,
+				7394920E2296F30300F4ED51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739492132296F30300F4ED51 /* PBXTargetDependency */,
+				739492152296F30300F4ED51 /* PBXTargetDependency */,
+			);
+			name = MonnoPhotoLiveMakerTests;
+			productName = MonnoPhotoLiveMakerTests;
+			productReference = 739492102296F30300F4ED51 /* MonnoPhotoLiveMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739491CA2296F2D900F4ED51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MonnoApps;
+				TargetAttributes = {
+					739491D12296F2D900F4ED51 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					739491E52296F2DB00F4ED51 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 739491D12296F2D900F4ED51;
+					};
+					739491F02296F2DB00F4ED51 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 739491D12296F2D900F4ED51;
+					};
+					739492072296F30200F4ED51 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					7394920F2296F30300F4ED51 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 739491D12296F2D900F4ED51;
+					};
+				};
+			};
+			buildConfigurationList = 739491CD2296F2D900F4ED51 /* Build configuration list for PBXProject "PhotoLiveMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739491C92296F2D900F4ED51;
+			productRefGroup = 739491D32296F2D900F4ED51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739491D12296F2D900F4ED51 /* PhotoLiveMaker */,
+				739491E52296F2DB00F4ED51 /* PhotoLiveMakerTests */,
+				739491F02296F2DB00F4ED51 /* PhotoLiveMakerUITests */,
+				739492072296F30200F4ED51 /* MonnoPhotoLiveMaker */,
+				7394920F2296F30300F4ED51 /* MonnoPhotoLiveMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739491D02296F2D900F4ED51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739492362297168E00F4ED51 /* a.mov in Resources */,
+				739491E02296F2DB00F4ED51 /* LaunchScreen.storyboard in Resources */,
+				739492312296FB2000F4ED51 /* resistencia.MOV in Resources */,
+				73949233229700EB00F4ED51 /* resistenc.mp4 in Resources */,
+				739492302296FB2000F4ED51 /* resistencia.jpg in Resources */,
+				739491DD2296F2DB00F4ED51 /* Assets.xcassets in Resources */,
+				7394923922971C7B00F4ED51 /* b.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739491E42296F2DB00F4ED51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739491EF2296F2DB00F4ED51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739492062296F30200F4ED51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394920E2296F30300F4ED51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739491CE2296F2D900F4ED51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7394922D2296F8FC00F4ED51 /* UIViewController-extensions.swift in Sources */,
+				739491D82296F2D900F4ED51 /* ViewController.swift in Sources */,
+				739491D62296F2D900F4ED51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739491E22296F2DB00F4ED51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739491EB2296F2DB00F4ED51 /* PhotoLiveMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739491ED2296F2DB00F4ED51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739491F62296F2DB00F4ED51 /* PhotoLiveMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739492042296F30200F4ED51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737886E92297F98C009A2097 /* LivePhotoOpertion.swift in Sources */,
+				73949237229718DA00F4ED51 /* LivePhoto.swift in Sources */,
+				737886E5229744CD009A2097 /* URLSession+DownloadMedia.swift in Sources */,
+				737886E7229744FD009A2097 /* FileManager+Delete.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394920C2296F30300F4ED51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739492182296F30300F4ED51 /* MonnoPhotoLiveMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		739491E82296F2DB00F4ED51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739491D12296F2D900F4ED51 /* PhotoLiveMaker */;
+			targetProxy = 739491E72296F2DB00F4ED51 /* PBXContainerItemProxy */;
+		};
+		739491F32296F2DB00F4ED51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739491D12296F2D900F4ED51 /* PhotoLiveMaker */;
+			targetProxy = 739491F22296F2DB00F4ED51 /* PBXContainerItemProxy */;
+		};
+		739492132296F30300F4ED51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739492072296F30200F4ED51 /* MonnoPhotoLiveMaker */;
+			targetProxy = 739492122296F30300F4ED51 /* PBXContainerItemProxy */;
+		};
+		739492152296F30300F4ED51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739491D12296F2D900F4ED51 /* PhotoLiveMaker */;
+			targetProxy = 739492142296F30300F4ED51 /* PBXContainerItemProxy */;
+		};
+		7394921C2296F30300F4ED51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739492072296F30200F4ED51 /* MonnoPhotoLiveMaker */;
+			targetProxy = 7394921B2296F30300F4ED51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		739491DE2296F2DB00F4ED51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739491DF2296F2DB00F4ED51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		739491F82296F2DB00F4ED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		739491F92296F2DB00F4ED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		739491FB2296F2DB00F4ED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = PhotoLiveMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.PhotoLiveMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		739491FC2296F2DB00F4ED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = PhotoLiveMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.PhotoLiveMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		739491FE2296F2DB00F4ED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = PhotoLiveMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.PhotoLiveMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoLiveMaker.app/PhotoLiveMaker";
+			};
+			name = Debug;
+		};
+		739491FF2296F2DB00F4ED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = PhotoLiveMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.PhotoLiveMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoLiveMaker.app/PhotoLiveMaker";
+			};
+			name = Release;
+		};
+		739492012296F2DB00F4ED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = PhotoLiveMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.PhotoLiveMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoLiveMaker;
+			};
+			name = Debug;
+		};
+		739492022296F2DB00F4ED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = PhotoLiveMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.PhotoLiveMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoLiveMaker;
+			};
+			name = Release;
+		};
+		739492202296F30300F4ED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MonnoPhotoLiveMaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.MonnoPhotoLiveMaker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		739492212296F30300F4ED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MonnoPhotoLiveMaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.MonnoPhotoLiveMaker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		739492242296F30300F4ED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = MonnoPhotoLiveMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.MonnoPhotoLiveMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoLiveMaker.app/PhotoLiveMaker";
+			};
+			name = Debug;
+		};
+		739492252296F30300F4ED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U72882THN;
+				INFOPLIST_FILE = MonnoPhotoLiveMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monnoapps.MonnoPhotoLiveMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoLiveMaker.app/PhotoLiveMaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739491CD2296F2D900F4ED51 /* Build configuration list for PBXProject "PhotoLiveMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739491F82296F2DB00F4ED51 /* Debug */,
+				739491F92296F2DB00F4ED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739491FA2296F2DB00F4ED51 /* Build configuration list for PBXNativeTarget "PhotoLiveMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739491FB2296F2DB00F4ED51 /* Debug */,
+				739491FC2296F2DB00F4ED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739491FD2296F2DB00F4ED51 /* Build configuration list for PBXNativeTarget "PhotoLiveMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739491FE2296F2DB00F4ED51 /* Debug */,
+				739491FF2296F2DB00F4ED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739492002296F2DB00F4ED51 /* Build configuration list for PBXNativeTarget "PhotoLiveMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739492012296F2DB00F4ED51 /* Debug */,
+				739492022296F2DB00F4ED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7394921F2296F30300F4ED51 /* Build configuration list for PBXNativeTarget "MonnoPhotoLiveMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739492202296F30300F4ED51 /* Debug */,
+				739492212296F30300F4ED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739492232296F30300F4ED51 /* Build configuration list for PBXNativeTarget "MonnoPhotoLiveMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739492242296F30300F4ED51 /* Debug */,
+				739492252296F30300F4ED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 739491CA2296F2D900F4ED51 /* Project object */;
+}
