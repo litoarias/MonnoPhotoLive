@@ -21,13 +21,7 @@
 		7394921A2296F30300F4ED51 /* MonnoPhotoLiveMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7394920A2296F30300F4ED51 /* MonnoPhotoLiveMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7394921D2296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */; };
 		7394921E2296F30300F4ED51 /* MonnoPhotoLiveMaker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 739492082296F30200F4ED51 /* MonnoPhotoLiveMaker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7394922D2296F8FC00F4ED51 /* UIViewController-extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394922C2296F8FC00F4ED51 /* UIViewController-extensions.swift */; };
-		739492302296FB2000F4ED51 /* resistencia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7394922E2296FB2000F4ED51 /* resistencia.jpg */; };
-		739492312296FB2000F4ED51 /* resistencia.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 7394922F2296FB2000F4ED51 /* resistencia.MOV */; };
-		73949233229700EB00F4ED51 /* resistenc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 73949232229700EB00F4ED51 /* resistenc.mp4 */; };
-		739492362297168E00F4ED51 /* a.mov in Resources */ = {isa = PBXBuildFile; fileRef = 739492352297168E00F4ED51 /* a.mov */; };
 		73949237229718DA00F4ED51 /* LivePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739492262296F39B00F4ED51 /* LivePhoto.swift */; };
-		7394923922971C7B00F4ED51 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7394923822971C7B00F4ED51 /* b.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,12 +99,6 @@
 		739492172296F30300F4ED51 /* MonnoPhotoLiveMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonnoPhotoLiveMakerTests.swift; sourceTree = "<group>"; };
 		739492192296F30300F4ED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		739492262296F39B00F4ED51 /* LivePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhoto.swift; sourceTree = "<group>"; };
-		7394922C2296F8FC00F4ED51 /* UIViewController-extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-extensions.swift"; sourceTree = "<group>"; };
-		7394922E2296FB2000F4ED51 /* resistencia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resistencia.jpg; sourceTree = "<group>"; };
-		7394922F2296FB2000F4ED51 /* resistencia.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = resistencia.MOV; sourceTree = "<group>"; };
-		73949232229700EB00F4ED51 /* resistenc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = resistenc.mp4; sourceTree = "<group>"; };
-		739492352297168E00F4ED51 /* a.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = a.mov; sourceTree = "<group>"; };
-		7394923822971C7B00F4ED51 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,14 +169,8 @@
 		739491D42296F2D900F4ED51 /* PhotoLiveMaker */ = {
 			isa = PBXGroup;
 			children = (
-				7394922E2296FB2000F4ED51 /* resistencia.jpg */,
-				7394922F2296FB2000F4ED51 /* resistencia.MOV */,
-				739492352297168E00F4ED51 /* a.mov */,
-				7394923822971C7B00F4ED51 /* b.jpg */,
-				73949232229700EB00F4ED51 /* resistenc.mp4 */,
 				739491D52296F2D900F4ED51 /* AppDelegate.swift */,
 				739491D72296F2D900F4ED51 /* ViewController.swift */,
-				7394922C2296F8FC00F4ED51 /* UIViewController-extensions.swift */,
 				739491DC2296F2DB00F4ED51 /* Assets.xcassets */,
 				739491DE2296F2DB00F4ED51 /* LaunchScreen.storyboard */,
 				739491E12296F2DB00F4ED51 /* Info.plist */,
@@ -400,13 +382,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739492362297168E00F4ED51 /* a.mov in Resources */,
 				739491E02296F2DB00F4ED51 /* LaunchScreen.storyboard in Resources */,
-				739492312296FB2000F4ED51 /* resistencia.MOV in Resources */,
-				73949233229700EB00F4ED51 /* resistenc.mp4 in Resources */,
-				739492302296FB2000F4ED51 /* resistencia.jpg in Resources */,
 				739491DD2296F2DB00F4ED51 /* Assets.xcassets in Resources */,
-				7394923922971C7B00F4ED51 /* b.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +422,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7394922D2296F8FC00F4ED51 /* UIViewController-extensions.swift in Sources */,
 				739491D82296F2D900F4ED51 /* ViewController.swift in Sources */,
 				739491D62296F2D900F4ED51 /* AppDelegate.swift in Sources */,
 			);
